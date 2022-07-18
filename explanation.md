@@ -63,5 +63,5 @@ kubectl get all -n yolomy
 [Yolomy Site] (http://34.90.44.211:3000/)
 
 ## Resources and articles used
-https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app <br>
 https://laptrinhx.com/google-cloud-platform-i-deploy-a-docker-app-to-google-container-engine-with-kubernetes-3253698494/
