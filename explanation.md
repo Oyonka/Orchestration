@@ -55,9 +55,9 @@ kubectl get all -n yolomy
 
 # Images used in the gcloud container registry
 
-- docker.io/noshmak/yolo-client:1.0
-- docker.io/noshmak/yolo-backend:1.0
-- docker.io/noshmak/mongoauth:1.0
+- docker.io/Oyonka/yolo-client:1.0
+- docker.io/Oyonka/yolo-backend:1.0
+- docker.io/Oyonka/mongoauth:1.0
 
 ## Live URL:
 [Yolomy Site] (http://34.90.44.211:3000/)
