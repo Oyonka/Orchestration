@@ -64,3 +64,4 @@ kubectl get all -n yolomy
 
 ## Resources and articles used
 https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+https://laptrinhx.com/google-cloud-platform-i-deploy-a-docker-app-to-google-container-engine-with-kubernetes-3253698494/
