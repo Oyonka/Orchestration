@@ -7,9 +7,9 @@ ARG BUILD_DATE
 
 # Labels
 LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.name="Yolomy Client"
+LABEL org.label-schema.name="Yolo Client"
 LABEL org.label-schema.build-date=$BUILD_DATE
-LABEL org.label-schema.description="Yolomy website front-end container"
+LABEL org.label-schema.description="Yolo website front-end container"
 
 RUN echo "Build Date: $BUILD_DATE"
 RUN apk update && apk add nodejs nodejs-npm
