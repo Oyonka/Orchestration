@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Service
 metadata:
   name: yolo-mongo-service
-  namespace: "yolomy"
+  namespace: "yolo"
   labels:
     #Project ID
-    app: yolomy-mongo
+    app: yolo-mongo
 spec:
   ports:
     # - nodePort: 32425
@@ -13,28 +13,28 @@ spec:
       targetPort: 27017
       protocol: TCP
   selector:
-    app: yolomy-mongo
+    app: yolo-mongo
     
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: yolomy-mongo
-  namespace: "yolomy"
+  name: yolo-mongo
+  namespace: "yolo"
   labels:
-    app: yolomy-mongo
+    app: yolo-mongo
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: yolomy-mongo
+      app: yolo-mongo
   template:
     metadata:
       labels:
-        app: yolomy-mongo
+        app: yolo-mongo
     spec:
       containers:
-        - name: yolomy-mongo
+        - name: yolo-mongo
           image: Oyonka/mongoauth:latest
           imagePullPolicy: IfNotPresent
           ports:
