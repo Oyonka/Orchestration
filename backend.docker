@@ -7,9 +7,9 @@ ARG BUILD_DATE
 
 # Labels
 LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.name="Yolomy Backend"
+LABEL org.label-schema.name="Yolo Backend"
 
-LABEL org.label-schema.description="Yolomy website backend container"
+LABEL org.label-schema.description="Yolo website backend container"
 
 RUN echo "Build Date: $BUILD_DATE"
 LABEL org.label-schema.build-date=$BUILD_DATE
