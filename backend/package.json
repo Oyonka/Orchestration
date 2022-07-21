@@ -1,7 +1,7 @@
 {
     "name": "yolo_app",
     "version": "1.0.0",
-    "description": "Yolomy app built with MERN stack",
+    "description": "Yolo app built with MERN stack",
     "main": "server.js",
     "scripts": {
       "client-install": "npm install --prefix client",
