@@ -13,7 +13,7 @@ services:
     ports:
       - 3000:3000
     networks:
-      - yolomy
+      - yolo
 
   backend:
     image: Oyonka/yolo-backend:1.0
@@ -24,7 +24,7 @@ services:
     ports:
       - 5000:5000
     networks:
-      - yolomy
+      - yolo
     depends_on:
       - mongo
       
@@ -35,10 +35,10 @@ services:
     volumes:
       - dbdata:/data/dbdata
     networks:
-      - yolomy
+      - yolo
 
 networks:
-  yolomy:
+  yolo:
     driver: bridge
 
 volumes:
