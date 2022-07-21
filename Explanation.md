@@ -43,15 +43,15 @@ cd yolo
 
 ## Login to gcloud from your terminal
 While still in the yolo folder run the below command:
-gcloud container clusters get-credentials yolomy-cluster --zone europe-west4-a --project yolomy
+gcloud container clusters get-credentials yolo-cluster --zone europe-west4-a --project yolo
 
 ## Create a namespace, deploy
-kubectl create namespace yolomy
+kubectl create namespace yolo
 kubectl create -f client-deploy.yml
 
 
 ## Successful running of the containers
-kubectl get all -n yolomy
+kubectl get all -n yolo
 
 # Images used in the gcloud container registry
 
@@ -60,7 +60,7 @@ kubectl get all -n yolomy
 - docker.io/Oyonka/mongoauth:1.0
 
 ## Live URL:
-[Yolomy Site] (http://34.90.44.211:3000/)
+[Yolo Site] (http://34.90.44.211:3000/)
 
 ## Resources and articles used
 https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app  <br>
